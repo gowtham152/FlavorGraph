@@ -1,0 +1,48 @@
+[
+  {
+    "id": "caprese_salad",
+    "title": "Caprese Salad",
+    "ingredients": ["tomato", "mozzarella", "basil", "olive oil", "salt", "pepper"],
+    "instructions": [
+      "Slice tomatoes and mozzarella.",
+      "Layer tomato, mozzarella, and basil leaves.",
+      "Drizzle with olive oil, season with salt and pepper."
+    ],
+    "tags": ["salad", "italian", "quick"]
+  },
+  {
+    "id": "garlic_pasta",
+    "title": "Garlic Olive Oil Pasta",
+    "ingredients": ["spaghetti", "garlic", "olive oil", "chili flakes", "parsley", "salt"],
+    "instructions": [
+      "Cook spaghetti until al dente.",
+      "Gently sauté sliced garlic in olive oil.",
+      "Toss pasta with garlic oil, chili flakes, parsley, and salt."
+    ],
+    "tags": ["pasta", "italian", "vegan"]
+  },
+  {
+    "id": "veggie_omelette",
+    "title": "Veggie Omelette",
+    "ingredients": ["eggs", "onion", "bell pepper", "spinach", "salt", "pepper", "butter"],
+    "instructions": [
+      "Beat eggs with salt and pepper.",
+      "Sauté veggies in butter.",
+      "Add eggs, cook until set, fold and serve."
+    ],
+    "tags": ["breakfast", "quick", "protein"]
+  },
+  {
+    "id": "peanut_stir_fry",
+    "title": "Peanut Stir Fry",
+    "ingredients": ["tofu", "soy sauce", "garlic", "ginger", "peanut butter", "broccoli", "carrot", "sesame oil"],
+    "instructions": [
+      "Whisk soy sauce, peanut butter, and a splash of water.",
+      "Stir-fry garlic, ginger, veggies, then tofu.",
+      "Add sauce, toss to coat, finish with sesame oil."
+    ],
+    "tags": ["stir-fry", "asian", "vegan"]
+  }
+]
+
+

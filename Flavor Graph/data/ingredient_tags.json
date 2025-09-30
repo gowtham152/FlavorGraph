@@ -1,0 +1,26 @@
+{
+  "tomato": ["vegetable", "fresh"],
+  "mozzarella": ["dairy", "cheese"],
+  "basil": ["herb", "fresh"],
+  "olive oil": ["fat"],
+  "salt": ["seasoning"],
+  "pepper": ["seasoning"],
+  "spaghetti": ["grain", "pasta"],
+  "garlic": ["aromatic"],
+  "chili flakes": ["spice"],
+  "parsley": ["herb"],
+  "eggs": ["protein"],
+  "onion": ["aromatic"],
+  "bell pepper": ["vegetable"],
+  "spinach": ["vegetable"],
+  "butter": ["fat", "dairy"],
+  "tofu": ["protein"],
+  "soy sauce": ["condiment"],
+  "ginger": ["aromatic"],
+  "peanut butter": ["nut", "fat"],
+  "broccoli": ["vegetable"],
+  "carrot": ["vegetable"],
+  "sesame oil": ["fat"]
+}
+
+

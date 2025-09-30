@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlavorGraph — Intelligent Recipe Navigator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <nav class="topbar">
+        <div class="brand">
+            <img src="/static/logo.svg" alt="FlavorGraph logo" class="logo" />
+            <span class="brand-text">FlavorGraph</span>
+        </div>
+        <div class="tagline">Intelligent Recipe Navigator with Algorithmic Insights</div>
+    </nav>
+
+    <main class="container">
+        <section class="panel inputs">
+            <h2>Available Ingredients</h2>
+            <div class="chips" id="ingredient-chips"></div>
+            <div class="input-row">
+                <input id="ingredient-input" type="text" placeholder="Type an ingredient and press Enter" />
+                <button id="add-btn" class="btn">Add</button>
+            </div>
+
+            <div class="grid">
+                <div class="field">
+                    <label>Max Missing</label>
+                    <input id="max-missing" type="number" min="0" max="10" value="3" />
+                </div>
+                <div class="field">
+                    <label>Allow Substitutions</label>
+                    <label class="switch">
+                        <input id="allow-subs" type="checkbox" checked />
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="field">
+                    <label>Plan Size</label>
+                    <input id="plan-size" type="number" min="1" max="4" value="1" />
+                </div>
+                <div class="field">
+                    <label>Max Suggestions</label>
+                    <input id="max-suggestions" type="number" min="1" max="12" value="6" />
+                </div>
+            </div>
+
+            <div class="actions">
+                <button id="suggest-btn" class="btn primary">Suggest Recipes</button>
+                <button id="reset-btn" class="btn ghost">Reset</button>
+            </div>
+        </section>
+
+        <section class="panel results">
+            <h2>Suggestions</h2>
+            <div id="suggestions" class="cards"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <span>© <span id="year"></span> FlavorGraph</span>
+        <a href="https://github.com/" target="_blank" rel="noreferrer">Source</a>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
+
+

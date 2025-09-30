@@ -1,0 +1,20 @@
+{
+  "mozzarella": ["feta", "goat cheese"],
+  "basil": ["spinach", "arugula"],
+  "olive oil": ["canola oil", "sunflower oil"],
+  "pepper": ["chili flakes", "paprika"],
+  "spaghetti": ["penne", "fettuccine"],
+  "garlic": ["garlic powder", "shallot"],
+  "butter": ["olive oil", "ghee"],
+  "eggs": ["silken tofu"],
+  "tofu": ["chicken", "tempeh"],
+  "soy sauce": ["tamari", "coconut aminos"],
+  "peanut butter": ["almond butter", "tahini"],
+  "sesame oil": ["olive oil"],
+  "broccoli": ["cauliflower"],
+  "carrot": ["zucchini"],
+  "parsley": ["cilantro", "basil"],
+  "salt": ["soy sauce"]
+}
+
+
